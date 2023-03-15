@@ -1,0 +1,7 @@
+{
+  "path": "api/foo/ding/dong",
+  "data": {
+    "ding": 6,
+    "dong": 7
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "path": "api/baz",
+  "data": {
+    "baz": 3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "webpack-mock-api",
+  "version": "0.0.1",
+  "description": "Easily mock apis with express or webpack-dev-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/read-api.js"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-dev-server",
+    "mock"
+  ],
+  "tags": [
+    "webpack",
+    "webpack-dev-server",
+    "mock"
+  ],
+  "bugs": {
+    "url": "https://github.com/goldhand/webpack-mock-api/issues"
+  },
+  "homepage": "https://github.com/goldhand/webpack-mock-api#readme",
+  "author": "Will Farley <a.will.farley@gmail.com> (http://www.willfarley.org/)",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.18.2"
+  },
+  "peerDependencies": {
+    "express": ">=2"
+  }
+}
