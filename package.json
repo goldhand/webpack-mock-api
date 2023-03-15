@@ -3,15 +3,21 @@
   "version": "0.0.1",
   "description": "Easily mock apis with express or webpack-dev-server",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "webpack-mock-api.js"
+  ],
   "scripts": {
     "test": "node ./tests/read-api.js"
   },
   "keywords": [
+    "express",
     "webpack",
     "webpack-dev-server",
     "mock"
   ],
   "tags": [
+    "express",
     "webpack",
     "webpack-dev-server",
     "mock"
