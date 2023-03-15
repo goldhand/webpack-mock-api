@@ -2,7 +2,7 @@ const path = require('path')
 const fs = require('fs')
 const mockApi = require('..');
 
-const app = mockApi.expressMockApi({
+const app = mockApi({
   app: require('express')(),
   apiRootDir: path.resolve(__dirname, 'api'),
   apiPrefix: '/api',
